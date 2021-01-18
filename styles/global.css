@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #9b142a;
+    --white: #d3c0c0;
+    --black: #333333;
+    --width-break: 600px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Yusei Magic', sans-serif;
+    color: var(--white);
+    background-image: url('../shakespeare.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    text-align: center;
+    background-color: var(--primary);
+}
+
+main {
+    margin: auto;
+    padding: 1rem;
+    max-width: var(--width-break);
+}
+
+textarea {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    min-height: 20vh;
+    margin-top: 2rem;
+    font-size: large;
+    font-family: inherit;
+    background: transparent;
+    color: #ffffff;
+}
+
+button {
+    background-color: var(--primary);
+    border: 1px solid var(--black);
+    margin: 2rem 37%;
+    padding: 1rem 2rem;
+    font-size: large;
+    border-radius: 1rem;
+    outline: none;
+}
+
+button:hover {
+    background-color: #941429;
+}
+
+#translate-output {
+    box-sizing: border-box;
+    margin-top: 2rem;
+    width: 100%;
+    min-height: 10vh;
+    max-height: 20vh;
+    overflow: scroll;
+    border: 1px solid var(--black);
+    border-radius: 2px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--primary);
+    text-align: center;
+}
